@@ -1,0 +1,14 @@
+configuration:
+  test:
+    type: Int
+    immutable: true
+  test2:
+    type: Int
+  uddt:
+    type: uddt
+userDefinedDataType:
+  - type: uddt
+    configuration:
+      bar:
+        type: Int
+
