@@ -1,0 +1,12 @@
+description: "Health check step"
+platforms:
+ - os: Windows
+configuration:
+  healthCheckUrl:
+    type: Url
+  notifyOnSuccess:
+    type: Boolean
+  notifyOnFailure:
+    type: Boolean
+  stuff:
+    type: String[]
