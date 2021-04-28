@@ -1,0 +1,13 @@
+platforms:
+  - os: Linux
+configuration:
+  foo:
+    type: String
+  sourceArtifactory:
+    type: Integration
+    required: true
+    validate:
+      allowedIntegrationTypes: [Artifactory]
+  gitProvider:
+    type: Integration
+    required: true
