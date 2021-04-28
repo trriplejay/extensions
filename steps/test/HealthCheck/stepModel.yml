@@ -1,12 +1,29 @@
 description: "Health check step"
 platforms:
+ - os: Windows
  - os: Linux
 configuration:
   healthCheckUrl:
     type: Url
+    required: true
   notifyOnSuccess:
     type: Boolean
+    required: true
   notifyOnFailure:
     type: Boolean
+    required: true
   stuff:
     type: String[]
+  etc:
+    type: foo
+    required: true
+
+userDefinedDataType:
+  - type: foo
+    configuration:
+      example:
+        type: String
+      example2:
+        type: String
+        required: true
+
