@@ -1,0 +1,6 @@
+description: "Test if Approval Gates is required"
+platforms:
+  - os: Linux
+configuration:
+  requiresApproval:
+    type: Boolean
